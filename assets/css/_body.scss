@@ -1,0 +1,40 @@
+body {  
+    font-family: $main-font;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    .text__blue {
+    color: $blue;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    }
+    .form__description {
+        $color: $grey; 
+    }
+    .form-control {
+        background-color: $ligth-grey2;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        margin-bottom: 1.25em;
+        &:focus {
+            background-color: $ligth-grey2;
+        }
+    }
+
+    .form-floating {
+        label {
+            font-family: $main-font;
+            font-size: 12px;
+        }
+    }
+
+    .form-password {
+        background-image: url(../img/Vector.svg);
+        background-repeat: no-repeat;
+        background-position: center right 0.75em;
+    }
+    
+     
+}
+
+

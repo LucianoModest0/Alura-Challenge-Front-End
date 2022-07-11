@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+body .text__blue {
+  color: hsl(222deg, 100%, 61%);
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+body .form-control {
+  background-color: #F7F7F7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  margin-bottom: 1.25em;
+}
+body .form-control:focus {
+  background-color: #F7F7F7;
+}
+body .form-floating label {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+body .form-password {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center right 0.75em;
+}
+
+.button {
+  padding: 0.5em;
+  background: hsl(0deg, 96%, 71%);
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  align-self: center;
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+  width: 100%;
+}
+
+footer {
+  background: hsl(165deg, 66%, 53%);
+  text-align: center;
+  width: 100%;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  color: hsl(0deg, 0%, 100%);
+  padding: 41px 0;
+  margin-bottom: 0;
+}
+
+body .logos__header {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 3em;
+  gap: 3.625em;
+}
+
+.initial {
+  background-color: hsl(222deg, 100%, 61%);
+  background-image: url(../img/Forma\ 1.png), url(../img/Forma\ 2.png), url(../img/Ilustração.png);
+  background-repeat: no-repeat;
+  background-position: top left, center right, bottom 5.375em center;
+}
+.initial .main__section {
+  flex-grow: 1;
+  text-align: center;
+  padding-bottom: 19.5em;
+}
+.initial .main__section .main__section-logo {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 46px;
+}
+.initial .main__section .main__section-title {
+  font-family: "IBM Plex Sans";
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
+  margin-bottom: 1em;
+}
+.initial .main__section .main__section-text {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 16px;
+  margin-bottom: 2em;
+}
+.initial .main__section .main__section-buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 1em;
+  max-width: 12em;
+  margin-bottom: 2em;
+}
+.initial .container {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+
+.registration {
+  background-image: url(../img/Patas.png), url(../img/Forma\ 1.png), url(../img/Forma_2-\ inverse.png);
+  background-repeat: no-repeat;
+  background-position: top right, top left, top 23em left;
+  background-color: hsl(31deg, 81%, 94%);
+}
+.registration .container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.registration .registration__main {
+  text-align: center;
+}
+.registration .registration__main .registration__logo-blue {
+  margin-top: 2.5em;
+}
+.registration .registration__main .registration__main-button {
+  margin-top: 1.5em;
+  margin-bottom: 6.5em;
+}
+.registration .registration__main .registration__main-button .button {
+  padding: 8px 32px;
+}/*# sourceMappingURL=style.css.map */
