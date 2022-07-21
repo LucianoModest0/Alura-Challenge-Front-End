@@ -15,8 +15,8 @@
         padding-bottom: 19.5em;
         
         .main__section-logo {
-            margin-top: 50px;
-            margin-bottom: 30px;
+            margin-top: 3.125em;
+            margin-bottom: 1.875em;
             height: 46px;
             
         }
@@ -47,6 +47,31 @@
         padding-left: 3.5em;
         padding-right: 3.5em;
 
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .initial {
+        background-image: url(../img/Forma-1-tab&desk.png), url(../img/Forma-2-tab&desk.png), url(../img/Ilustração-tab&desk.png);
+        .main__section {
+            padding-bottom: 26.3125em;
+            .main__section-logo {
+                height: 62px;
+                margin-top: 8.25em;
+            }
+            .main__section-title {
+                font-size: 28px;
+            }
+            .main__section-text {
+                font-size: 18px;
+                margin-left: 8.375em;
+                margin-right: 8.375em;
+            }
+            .main__section-buttons {
+                max-width: 20em;
+            }
+        }
     }
 
 }
