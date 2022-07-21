@@ -28,3 +28,13 @@ body {
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    body {
+        .logos__header {
+            .logs__header-user {
+                margin-left: 49.875em;
+            }
+        }
+    }
+}

@@ -72,6 +72,14 @@ body .new-margin {
     width: 48%;
   }
 }
+@media screen and (min-width: 1440px) {
+  .cards {
+    margin-bottom: 60px;
+  }
+  .cards .card {
+    width: 32%;
+  }
+}
 footer {
   background: hsl(165deg, 66%, 53%);
   text-align: center;
@@ -165,6 +173,11 @@ body .logos__header .logs__header-user {
     margin-left: 20em;
   }
 }
+@media screen and (min-width: 1440px) {
+  body .logos__header .logs__header-user {
+    margin-left: 49.875em;
+  }
+}
 .initial {
   background-color: hsl(222deg, 100%, 61%);
   background-image: url(../img/Forma\ 1.png), url(../img/Forma\ 2.png), url(../img/Ilustração.png);
@@ -228,6 +241,15 @@ body .logos__header .logs__header-user {
   }
   .initial .main__section .main__section-buttons {
     max-width: 20em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .initial .main__section {
+    padding-bottom: 27.625em;
+  }
+  .initial .main__section .main__section-text {
+    margin-left: 22.5em;
+    margin-right: 22.5em;
   }
 }
 .registration {
@@ -324,9 +346,18 @@ body .logos__header .logs__header-user {
 }
 
 @media screen and (min-width: 768px) {
+  .msg__main .msg__main-txt {
+    font-size: 18px;
+  }
   .msg__main .msg__form {
     margin-left: 5.375em;
     margin-right: 5.375em;
     margin-bottom: 5.6875em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .msg__main .msg__form {
+    margin-left: 23.25em;
+    margin-right: 23.25em;
   }
 }/*# sourceMappingURL=style.css.map */
