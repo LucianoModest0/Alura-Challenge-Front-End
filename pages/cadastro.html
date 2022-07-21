@@ -14,8 +14,8 @@
 </head>
 <body class="registration">
     <header class="logos__header">
-        <img src="../assets/img/Casa.svg" alt="Logo página inicial">
-        <img src="../assets/img/Mensagens.svg" alt="Logo de Mensagens">
+        <a href="../index.html"><img src="../assets/img/Casa.svg" alt="Logo página inicial"></a>
+        <a href="./msg.html"><img src="../assets/img/Mensagens.svg" alt="Logo de Mensagens"></a>
     </header>
 
     <section class="registration__main container">
@@ -25,30 +25,30 @@
         
         <p class="form__description">Email</p>
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="Escolha seu melhor email">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Escolha seu melhor email" required>
             <label for="floatingInput">Escolha seu melhor email</label>
           </div>
 
         <p class="form__description">Nome</p>
         <div class="form-floating">
-            <textarea class="form-control" placeholder="Digite aqui seu nome" id="floatingTextarea"></textarea>
+            <input type="text" class="form-control" id="floatingTextarea" placeholder="Digite aqui seu nome" required>
             <label for="floatingTextarea">Digite aqui seu nome</label>
         </div>
 
         <p class="form__description">Senha</p>
         <div class="form-floating">
-            <input type="password" class="form-control form-password" id="floatingPassword" placeholder="Crie uma senha">
+            <input type="password" class="form-control form-password" id="floatingPassword" placeholder="Crie uma senha" required>
             <label for="floatingPassword" >Crie uma senha</label>
         </div>
 
         <p class="form__description">Confirme sua senha</p>
         <div class="form-floating">
-            <input type="password" class="form-control form-password" id="floatingPassword" placeholder="Repita a senha criada acima">
+            <input type="password" class="form-control form-password" id="floatingPassword" placeholder="Repita a senha criada acima" required>
             <label for="floatingPassword" >Repita a senha criada acima</label>
         </div>
 
         <div class="registration__main-button">
-            <a href="#" class="button">Cadastrar</a>
+            <a href="login.html" class="button">Cadastrar</a>
         </div>
     </section>
 

@@ -10,23 +10,9 @@ body .text__blue {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-body .form-control {
-  background-color: #F7F7F7;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
-  margin-bottom: 1.25em;
-}
-body .form-control:focus {
-  background-color: #F7F7F7;
-}
-body .form-floating label {
-  font-family: "Poppins";
-  font-size: 12px;
-}
-body .form-password {
-  background-image: url(../img/Vector.svg);
-  background-repeat: no-repeat;
-  background-position: center right 0.75em;
+body .new-margin {
+  margin-top: 3.5em;
+  margin-bottom: 2.875em;
 }
 
 .button {
@@ -42,6 +28,43 @@ body .form-password {
   width: 100%;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: #F7F7F7;
+  width: 100%;
+  text-align: left;
+}
+
+.card-img {
+  height: 148px;
+  width: 148px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(222deg, 100%, 61%);
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(240deg, 5%, 48%);
+}
+
+.card-body a {
+  font-size: 10px;
+  text-decoration: none;
+  color: hsl(240deg, 5%, 48%);
+}
+
 footer {
   background: hsl(165deg, 66%, 53%);
   text-align: center;
@@ -55,12 +78,65 @@ footer p {
   margin-bottom: 0;
 }
 
+.form__title {
+  font-weight: 600;
+  font-size: 21px;
+  color: hsl(240deg, 5%, 48%);
+  text-align: center;
+}
+
+.form__description {
+  color: hsl(240deg, 5%, 48%);
+}
+
+.form__description-blue {
+  color: hsl(222deg, 100%, 61%);
+  font-weight: 600;
+}
+
+.form-control {
+  background-color: #F7F7F7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  margin-bottom: 1.25em;
+}
+.form-control:focus {
+  background-color: #F7F7F7;
+}
+
+.form-floating label {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.form-password {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center right 0.75em;
+}
+
+.form__foto {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.form__foto :first-child {
+  text-align: left;
+}
+.form__foto a {
+  margin-top: 0.25em;
+}
+
 body .logos__header {
   display: flex;
   align-content: center;
   align-items: center;
   padding: 3em;
   gap: 3.625em;
+}
+body .logos__header .logs__header-user {
+  margin-left: 5em;
 }
 
 .initial {
@@ -112,8 +188,8 @@ body .logos__header {
   background-color: hsl(31deg, 81%, 94%);
 }
 .registration .container {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 .registration .registration__main {
   text-align: center;
@@ -122,9 +198,57 @@ body .logos__header {
   margin-top: 2.5em;
 }
 .registration .registration__main .registration__main-button {
-  margin-top: 1.5em;
+  margin-top: 2em;
   margin-bottom: 6.5em;
 }
 .registration .registration__main .registration__main-button .button {
   padding: 8px 32px;
+}
+
+.forgot__password {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(0deg, 96%, 71%);
+  margin-bottom: 2em;
+}
+
+.login__main-button {
+  margin-top: 4em;
+  margin-bottom: 15.4375em;
+}
+.login__main-button .button {
+  padding: 8px 48px;
+}
+
+.home {
+  background-image: url(../img/Forma\ 1.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  text-align: center;
+}
+.home .logs__header-user {
+  height: 40px;
+  width: 40px;
+}
+
+.msg__main {
+  text-align: center;
+}
+.msg__main .msg__main-txt {
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.msg__main .msg__form {
+  padding: 32px 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: left;
+  background: #F7F7F7;
+}
+.msg__main .msg__form .form-floating #floatingTextarea {
+  height: 172px;
+}
+.msg__main .msg__form .msg__main-button {
+  padding: 8px 48px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

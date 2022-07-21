@@ -4,6 +4,9 @@ body {
         align-content: center;
         align-items: center;
         padding: 3em;
-        gap: 3.625em;           
+        gap: 3.625em;
+        .logs__header-user {
+            margin-left: 5em;
+        }        
     }
 }

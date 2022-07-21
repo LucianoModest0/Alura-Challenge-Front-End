@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background: $ligth-grey2;
+    width: 100%;
+    text-align: left;
+}
+
+.card-img {
+    height: 148px;
+    width: 148px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: $blue;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey;
+}
+
+.card-body a {
+    font-size: 10px;
+    text-decoration: none;
+    color: $grey;
+}
