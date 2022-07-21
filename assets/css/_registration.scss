@@ -9,7 +9,6 @@
     top right,
     top left, 
     top 23em left;
-    background-color: $creme;
 
     .container {
         padding-left: 1.5em;
@@ -28,4 +27,21 @@
             }
         }
     } 
+}
+
+@media screen and (min-width: 768px) {
+    .registration{
+        background-image: url(../img/Patas-tab&desk.png), url(../img/Forma-1-tab&desk.png), url(../img/Forma-2-tab&desk.png);
+        background-position: 
+        top right,
+        top left, 
+        top 18em right;
+        .registration__main {
+            
+            .registration__logo-blue {
+                margin-top: 8.25em;
+                height: 62px;
+            }
+        }
+    }
 }

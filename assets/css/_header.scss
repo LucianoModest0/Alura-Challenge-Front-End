@@ -5,8 +5,26 @@ body {
         align-items: center;
         padding: 3em;
         gap: 3.625em;
+        .logos__header--adopet {
+           display: none;
+        }
         .logs__header-user {
             margin-left: 5em;
         }        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        .logos__header {
+            .logos__header--adopet {
+                display: block;
+                width: 128px;
+                height: 30px;
+            }
+            .logs__header-user {
+                margin-left: 20em;
+            }  
+        }
     }
 }
