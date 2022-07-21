@@ -28,10 +28,22 @@
 
 @media screen and (min-width: 768px) {
     .msg__main {
+        .msg__main-txt {
+            font-size: 18px;
+        }
         .msg__form {
             margin-left: 5.375em;
             margin-right: 5.375em;
             margin-bottom: 5.6875em;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .msg__main {
+        .msg__form {
+            margin-left: 23.25em;
+            margin-right: 23.25em;
         }
     }
 }

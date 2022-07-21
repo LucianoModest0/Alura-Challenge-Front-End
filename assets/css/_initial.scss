@@ -75,3 +75,16 @@
     }
 
 }
+
+
+@media screen and (min-width: 1440px) {
+    .initial {
+        .main__section {
+            padding-bottom: 27.625em;
+            .main__section-text {
+                margin-left: 22.5em;
+                margin-right: 22.5em;
+            }
+        }
+    }
+}

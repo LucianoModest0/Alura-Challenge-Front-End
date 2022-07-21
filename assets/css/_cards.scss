@@ -46,3 +46,12 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .cards {
+        margin-bottom: 60px;
+        .card {
+            width: 32%;
+        }
+    }
+}
