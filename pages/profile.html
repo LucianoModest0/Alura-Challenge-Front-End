@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet - Meu Perfil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">  
+</head>
+<body class="home">
+    <header class="logos__header">
+        <a href="../index.html"><img src="../assets/img/Casa.svg" alt="Logo página inicial"></a>
+        <a href="./msg.html"><img src="../assets/img/Mensagens.svg" alt="Logo de Mensagens"></a>
+        <img src="../assets/img/Usuário.svg" class="logs__header-user" alt="Usuário">
+    </header>
+
+    <section class="msg__main container">
+        <div class="msg__main-txt">
+            <p class="text__blue new-margin">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+        </div>
+        <div class="msg__form">
+
+            <p class="form__title">Perfil</p>
+
+            <div class="form__foto">
+                <p class="form__description-blue">Foto</p>
+                <a href="#"><img src="../assets/img/contato.png" alt=""></a>
+                <a href="#" class="forgot__password">Clique na foto para editar</a>
+            </div>
+
+            <p class="form__description-blue">Nome</p>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome completo" required>
+                <label for="formGroupExampleInput">Insira seu nome completo</label>
+            </div>
+
+
+            <p class="form__description-blue">Telefone</p>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu telefone e/ou whatsapp" required>
+                <label for="formGroupExampleInput">Insira seu telefone e/ou whatsapp</label>
+            </div>
+
+            <p class="form__description-blue">Cidade</p>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Qual a sua cidade?" required>
+                <label for="formGroupExampleInput">Qual sua cidade?</label>
+            </div>
+
+            <p class="form__description-blue">Sobre</p>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Fale um pouco sobre você" id="floatingTextarea" required></textarea>
+                <label for="floatingTextarea">Fale um pouco sobre você</label>
+            </div>
+            
+
+
+            <div class="msg__main-button">
+                <a href="#" class="button">Salvar</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>

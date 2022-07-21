@@ -1,0 +1,28 @@
+.msg__main {
+     text-align: center;
+     .msg__main-txt{
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+    .msg__form {
+        padding: 32px 16px;
+        margin-left: 12px;
+        margin-right: 12px;
+        text-align: left;
+        background: $ligth-grey2;
+        .form-floating {
+            #floatingTextarea{
+                height: 172px;
+            }
+        }
+        .msg__main-button {
+            padding: 8px 48px;
+           text-align: center;
+        }
+    }
+    
+}
+
+
+
+

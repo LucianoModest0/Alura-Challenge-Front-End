@@ -1,0 +1,17 @@
+footer {
+    background: $green;
+
+    text-align: center;
+    width: 100%;
+    
+    p {
+        display: flex;
+        justify-content: center;
+        
+        color: $white;
+
+        padding: 41px 0;
+
+        margin-bottom: 0;
+    }
+}

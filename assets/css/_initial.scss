@@ -1,0 +1,52 @@
+.initial {
+    background-color: $blue;
+    background-image: 
+    url(../img/Forma\ 1.png),
+    url(../img/Forma\ 2.png),
+    url(../img/Ilustração.png);
+    background-repeat: no-repeat;
+    background-position: 
+    top left, 
+    center right, 
+    bottom 5.375em center;
+    .main__section {
+        flex-grow: 1;
+        text-align: center;
+        padding-bottom: 19.5em;
+        
+        .main__section-logo {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            height: 46px;
+            
+        }
+        .main__section-title {
+            font-family: $welcome-font;
+            color: $white;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 48px;
+            margin-bottom: 1em;
+        }
+        .main__section-text {
+            color: $white;
+            font-size: 16px;
+            margin-bottom: 2em;
+        }
+        .main__section-buttons {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            gap: 1em;
+            max-width: 12em;
+            margin-bottom: 2em;
+        }
+        
+    }
+    .container {
+        padding-left: 3.5em;
+        padding-right: 3.5em;
+
+    }
+
+}

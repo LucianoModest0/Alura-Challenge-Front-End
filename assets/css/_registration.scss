@@ -1,0 +1,31 @@
+.registration {
+    background-image: 
+    url(../img/Patas.png),
+    url(../img/Forma\ 1.png),
+    url(../img/Forma_2-\ inverse.png); 
+    
+    background-repeat: no-repeat;
+    background-position: 
+    top right,
+    top left, 
+    top 23em left;
+    background-color: $creme;
+
+    .container {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .registration__main {
+        text-align: center;
+        .registration__logo-blue {
+            margin-top: 2.5em;
+        }
+        .registration__main-button {
+            margin-top: 2em;
+            margin-bottom: 6.5em;
+            .button {
+                padding: 8px 32px;
+            }
+        }
+    } 
+}
