@@ -11,7 +11,24 @@ $white: hsla(0, 0%, 100%, 1);
 
 
 
-// Lang
+// Fonts
 
 $main-font: 'Poppins';
 $welcome-font: 'IBM Plex Sans';
+
+// Validation 
+
+$form-validation-states: (
+  "valid": (
+    "color": $form-feedback-valid-color,
+    "icon": $form-feedback-icon-valid
+  ),
+  "invalid": (
+    "color": $form-feedback-invalid-color,
+    "icon": $form-feedback-icon-invalid
+  )
+);
+
+@each $state, $data in $form-validation-states {
+    @include form-validation-state($state, $data);
+  }
