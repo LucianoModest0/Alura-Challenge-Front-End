@@ -1,3 +1,7 @@
+// Error'1: if password field isn't blank, the checkValidity function consider it as valid even when the function checkPassword consider it as invalid
+// ++ from Error'1: the input gets valid's style but error message appears
+// Error'2: checkPassword function didn't stop the user to send the form with errors from its verification **FIXED!
+
 // Bootstrap method to validation through form's inputs
 const forms = document.querySelectorAll(".needs-validation");
 
@@ -5,7 +9,10 @@ Array.prototype.slice.call(forms).forEach(function (form) {
   form.addEventListener(
     "submit",
     function (event) {
-      if (!form.checkValidity() || !checkPassword()) {
+      if (!checkPassword()) {
+        event.preventDefault();
+        event.stopPropagation();
+      } else if (!form.checkValidity()) {
         event.preventDefault();
         event.stopPropagation();
       }
@@ -31,19 +38,23 @@ function checkPassword() {
   // 1. Checking if password fits in Regex pattern
   if (isValidPasssword(password.value)) {
     setValid(password);
+    password.valid;
   } else {
     setInvalid(password);
+    password.validity === false;
     isPasswordValid = false;
   }
-  console.log(password);
+
   // 2. Checking if the password confirms
   if (
     isValidPasssword(repeatedPassword.value) &&
     password.value === repeatedPassword.value
   ) {
     setValid(repeatedPassword);
+    repeatedPassword.valid;
   } else {
     setInvalid(repeatedPassword);
+    repeatedPassword.validity === false;
     isPasswordValid = false;
   }
 

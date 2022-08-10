@@ -24,37 +24,37 @@
         <p class="text__blue">Ainda não tem cadastro? <br>
             Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
 
-        <form class="form__section needs-validation" novalidate>   
+        <form id="form" class="form__section needs-validation" novalidate>   
             
             <div class="form-floating">
-                <input type="text" class="form-control" id="floatingTextarea" placeholder="Digite aqui seu nome" required>
+                <input type="text" class="form-control" id="floatingTextarea" placeholder="Digite aqui seu nome" data-type="name" required>
                 <label for="floatingTextarea">Digite aqui seu nome</label>
                 <div class="invalid-feedback">Por favor digite seu nome</div>
             </div>
             
             
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Escolha seu melhor email" required>
+                <input type="email" class="form-control" id="floatingInput" placeholder="Escolha seu melhor email" data-type="email" required>
                 <label for="floatingInput">Escolha seu melhor email</label>
                 <div class="invalid-feedback">Campo de email incorreto</div>
             </div>
 
             
             <div class="form-floating">
-                <input type="password" class="form-control form-password" id="floatingPassword" placeholder="Crie uma senha" onblur="checkPassword()" required>
+                <input type="password" class="form-control form-password" id="floatingPassword" placeholder="Crie uma senha" data-type="password" required>
                 <label for="floatingPassword" >Crie uma senha</label>
                 <div class="invalid-feedback">A senha deve conter de 6-16 caracteres com pelo menos uma letra maiscula, uma minuscula, um número e um caractere especial </div>
             </div>
 
             
             <div class="form-floating">
-                <input type="password" class="form-control form-password" id="repeatedPassword" placeholder="Repita a senha criada acima" onblur="checkPassword()" required>
+                <input type="password" class="form-control form-password" id="repeatedPassword" placeholder="Repita a senha criada acima" data-type="confirmPassowrd" required>
                 <label for="floatingPassword" >Repita a senha</label>
                 <div class="invalid-feedback">As senhas não correspondem</div>
             </div>
 
             <div class="registration__main-button">
-                <button type="submit" class="button">Cadastrar</button>
+                <button type="submit" class="button" onclick="checkPassword()">Cadastrar</button>
             </div>
         </form>
     </section>
@@ -63,6 +63,7 @@
     <footer>
         <p>2022 - Desenvolvido por Alura.</p>
     </footer>
+
     <script src="/assets/js/validation.js"></script>
 </body>
 </html>
